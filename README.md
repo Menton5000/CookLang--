@@ -1,6 +1,6 @@
-# CookLang++
+# CookLang--
 
-**CookLang++** es un lenguaje específico de dominio (DSL) diseñado para describir recetas de cocina de forma estructurada. Este proyecto implementa un compilador completo que transforma archivos `.cooklang++` en programas ejecutables que simulan el proceso de preparación.
+**CookLang--** es un lenguaje específico de dominio (DSL) diseñado para describir recetas de cocina de forma estructurada. Este proyecto implementa un compilador completo que transforma archivos `.cooklang++` en programas ejecutables que simulan el proceso de preparación.
 
 ---
 
@@ -35,7 +35,7 @@ chmod +x build_and_run.sh
 
 ## Uso del Lenguaje
 
-### Ejemplo de Receta (`tortilla.cooklang++`)
+### Ejemplo de Receta (`tortilla.cooklang--`)
 ```cooklang
 RECIPE Tortilla
 INGREDIENTS:
@@ -52,7 +52,7 @@ END
 ### Cómo Compilar una Receta
 Una vez que tengas el binario `cook`, utilízalo para procesar tu receta:
 ```bash
-./cook mi_receta.cooklang++
+./cook mi_receta.cooklang--
 ./mi_receta.exe
 ```
 
